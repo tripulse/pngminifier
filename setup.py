@@ -6,7 +6,7 @@ setuptools.setup(
     version= subprocess.check_output(['git', 'describe', '--tags']).strip() \
             .decode('utf-8') \
             .split('-g')[0],
-    desciption= "a program that strips out ancillary data "
+    description= "a program that strips out ancillary data "
                 "from PNG files and reduces the file slightly",
     author= "Shantanu Biswas",
     author_email= "bsantanu381@gmail.com",
