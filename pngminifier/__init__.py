@@ -1,7 +1,7 @@
 """pngminifier: reduces PNG size by stripping out unwanted chunks (eg. EXIF, pHYs)."""
 
 from argparse import ArgumentParser, FileType
-from _pngc    import PNGChunkReader, PNGChunkWriter
+from ._pngc   import PNGChunkReader, PNGChunkWriter
 from sys      import stdin, stdout
 
 critical_chunks = [b'IHDR', b'IDAT', b'PLTE', b'IEND']
