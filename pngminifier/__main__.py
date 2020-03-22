@@ -44,5 +44,5 @@ class PNGMinifier(ArgumentParser):
         
         self.argv.output.flush()
 
-if __name__ == "__main__":
+def main():
     PNGMinifier().main()
