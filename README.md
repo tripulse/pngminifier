@@ -3,7 +3,7 @@
 
 This tool is easily avialable on PyPI and can be installed with:
 ```bash
- $ pip install pngminifier
+$ pip install pngminifier
 ```
 
 [![PyPI version](https://badge.fury.io/py/pngminifier.svg)](https://badge.fury.io/py/pngminifier)
