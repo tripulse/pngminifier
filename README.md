@@ -12,7 +12,7 @@ This tool is easily avialable on PyPI and can be installed with:
 ---
 
 ```
-usage: pngminifier [-h] [-o OUTPUT] [--include-useful] [INPUT]
+usage: __main__.py [-h] [-o OUTPUT] [--include-useful] [INPUT]
 
 positional arguments:
   INPUT             input PNG file to read from, by default stdin
