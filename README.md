@@ -34,17 +34,17 @@ This option enables some ancillary chunks to pass through the filter is consider
 
 These are some trivial examples of using this tool:
 ```sh
-$ pngminifier input.png -o output.png
+$ python -m pngminifier input.png -o output.png
 
 # same thing but the shell writes it:
-$ pngminfier input.png > output.png
+$ python -m pngminfier input.png > output.png
 
 # same thing but the shell does I/O:
-$ pngminifier < input.png > output.png
+$ python -m pngminifier < input.png > output.png
 ```
 
 ```
-$ someprog | pngminifier > output.png
-$ pngminifier < input.png | someprog
-$ someprog | pngminifier | someotherprog
+$ someprog | python -m pngminifier > output.png
+$ python -m pngminifier < input.png | someprog
+$ someprog | python -m pngminifier | someotherprog
 ```
